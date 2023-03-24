@@ -1,6 +1,13 @@
 @import url("https://use.typekit.net/xfb8zvz.css");
 
-*{
+/* top navigation*/
+body {
+    background-color: #57445f;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
     font-family: "blue-goblet", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -19,30 +26,32 @@
 .navbar {
     width: 100%;
     height: 60px;
-    background: #ebcced;
+    background: #261128;
 }
 
 .navbar > ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
 .navbar ul li {
     position: relative;
+    list-style-type: none;
 }
 
 .navbar ul li a {
-    display: block;
-    color: black;
-    width: 180px;
+    display: inline-block;
+    color: #eddcf5;
+    width: 150px;
     height: 60px;
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px 5px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 18px;
     transition: all 0.2s ease;
+    list-style-type: none;
 }
 
 .navbar ul li > a {
@@ -58,11 +67,11 @@
     display: inline-block;
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.active,
-.navbar .submenu ul li a:hover,
-.navbar .submenu ul li a.active {
-    background: #c19dc3;
+.navbar ul li a:hover span,
+.navbar ul li a.active span,
+.navbar .submenu ul li a:hover span,
+.navbar .submenu ul li a.active span {
+    background-color: #261128;
 }
 
 .navbar .submenu_a,
@@ -70,7 +79,7 @@
 .navbar .submenu_c,
 .navbar .submenu_d {
     font-size: 20px;
-    padding: 8px;
+    padding-bottom: 40px;
 }
 
 .navbar .submenu {
@@ -86,8 +95,8 @@
 
 .navbar .submenu ul li a {
     width: 175px;
-    height: 100px;
-    background: #ebcced;
+    height: 40px;
+    background: #261128;
     text-align: center;
     vertical-align: text-bottom;
     padding-top: 15px;
@@ -101,5 +110,7 @@
     transform: translateX(-50%);
     z-index: 1;
     border: 15px solid;
-    border-color: transparent transparent #ebcced transparent;
+    border-color: transparent transparent #261128 transparent;
 }
+
+/* footer */
