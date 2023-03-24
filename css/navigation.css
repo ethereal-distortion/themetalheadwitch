@@ -1,0 +1,64 @@
+@import url("https://use.typekit.net/xfb8zvz.css");
+
+*{
+    font-family: "blue-goblet", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: #ebcced;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    display: block;
+    color: black;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.navbar ul li > a {
+    margin-right: 1px;
+}
+
+.navbar ul li:last-child > a {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    width: 175px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.acive{
+    background: #c19dc3;
+}
