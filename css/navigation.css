@@ -65,6 +65,14 @@
     background: #c19dc3;
 }
 
+.navbar .submenu_a,
+.navbar .submenu_b,
+.navbar .submenu_c,
+.navbar .submenu_d {
+    font-size: 20px;
+    padding: 8px;
+}
+
 .navbar .submenu {
     position: absolute;
     top: 75px;
@@ -78,9 +86,11 @@
 
 .navbar .submenu ul li a {
     width: 175px;
+    height: 100px;
     background: #ebcced;
-    text-align: left;
-    padding: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 15px;
 }
 
 .navbar .submenu::before {
