@@ -33,6 +33,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    padding-left: 0;
     
 }
 
@@ -114,3 +115,25 @@ nav {
 }
 
 /* footer */
+
+.footer {
+    font-family: "blue-goblet", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 115px;
+    position: fixed;
+    bottom: 0;
+    background-color: #261128;
+    color: #eddcf5;
+    font-size: 10px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+.footer .socialmedia {
+    text-align: left;
+    padding-left: 20px;
+}
