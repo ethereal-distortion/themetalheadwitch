@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+#container {
+    position: relative;
+}
+
 nav {
     font-family: "blue-goblet", sans-serif;
     font-weight: 700;
@@ -29,12 +33,16 @@ nav {
     background: #261128;
 }
 
+.navbar ul {
+    padding: 0;
+}
+
 .navbar > ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-left: 0;
-    
+    border-bottom: 0;
 }
 
 .navbar ul li {
@@ -45,10 +53,10 @@ nav {
 .navbar ul li a {
     display: inline-block;
     color: #eddcf5;
-    width: 150px;
+    width: 175px;
     height: 60px;
     text-align: center;
-    padding: 20px 5px;
+    padding: 20px 10px;
     letter-spacing: 2px;
     font-size: 18px;
     transition: all 0.2s ease;
@@ -64,7 +72,6 @@ nav {
 }
 
 .navbar ul li a {
-    width: 175px;
     display: inline-block;
 }
 
@@ -80,7 +87,10 @@ nav {
 .navbar .submenu_c,
 .navbar .submenu_d {
     font-size: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    padding-left: 5;
+    border-left: 0;
+    list-style-type: none;
 }
 
 .navbar .submenu {
@@ -88,6 +98,7 @@ nav {
     top: 75px;
     left: 0;
     display: none;
+    
 }
 
 .navbar ul li a.a_parent.active + .submenu {
@@ -107,14 +118,24 @@ nav {
     content: "";
     position: absolute;
     top: -30px;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     z-index: 1;
     border: 15px solid;
     border-color: transparent transparent #261128 transparent;
 }
 
+/* main */
+
+.main_homepage {
+    height: 1150px;
+}
+
 /* footer */
+
+footer {
+    margin-top: 10%;
+}
 
 .footer {
     font-family: "blue-goblet", sans-serif;
@@ -124,16 +145,17 @@ nav {
     text-decoration: none;
     width: 100%;
     height: 115px;
-    position: fixed;
-    bottom: 0;
+    bottom: 0px;
     background-color: #261128;
     color: #eddcf5;
     font-size: 10px;
     letter-spacing: 2px;
     vertical-align: middle;
+    position: relative;
 }
 
 .footer .socialmedia {
     text-align: left;
     padding-left: 20px;
+    padding-top: 3px;
 }
