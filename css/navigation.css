@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/xfb8zvz.css");
 
-/* top navigation*/
 body {
     background-color: #57445f;
     margin: 0;
     padding: 0;
 }
+/* top navigation*/
 
 #container {
     position: relative;
@@ -29,7 +29,6 @@ nav {
 
 .navbar {
     width: 100%;
-    height: 60px;
     background: #261128;
 }
 
@@ -73,6 +72,11 @@ nav {
 
 .navbar ul li a {
     display: inline-block;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover { 
+    text-decoration: underline;
 }
 
 .navbar ul li a:hover span,
@@ -125,6 +129,28 @@ nav {
     border-color: transparent transparent #261128 transparent;
 }
 
+.submenu_side {
+    position: absolute;
+    top: 0;
+    left: 107%;
+    width: 100%;
+    display: none;
+}
+
+.navbar ul li a.submenu_b.active + .submenu_side {
+    display: block;
+}
+
+.navbar .submenu_side:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent #261128 transparent transparent;
+}
+
 /* main */
 
 .main_homepage {
@@ -144,7 +170,7 @@ footer {
     list-style: none;
     text-decoration: none;
     width: 100%;
-    height: 115px;
+    height: 190px;
     bottom: 0px;
     background-color: #261128;
     color: #eddcf5;
@@ -152,10 +178,24 @@ footer {
     letter-spacing: 2px;
     vertical-align: middle;
     position: relative;
+    margin-bottom: 0;
+}
+
+.footer .disclaimer {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    font-size: 13px;
+}
+
+.footer .disclaimer h2 {
+    margin-bottom: 0px;
 }
 
 .footer .socialmedia {
     text-align: left;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 3px;
 }
