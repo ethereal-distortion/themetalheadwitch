@@ -4,6 +4,7 @@ body {
     background-color: #57445f;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 /* top navigation*/
 
@@ -53,7 +54,7 @@ nav {
 .navbar ul li a {
     display: inline-block;
     color: #eddcf5;
-    width: 175px;
+    width: 100%;
     text-align: center;
     padding: 20px 10px;
     letter-spacing: 2px;
@@ -63,7 +64,7 @@ nav {
 }
 
 .navbar ul li > a {
-    margin-right: 1px;
+    margin-right: 0px;
 }
 
 .navbar ul li:last-child > a {
@@ -154,7 +155,8 @@ nav {
 /* main */
 
 .main_homepage {
-    height: 1150px;
+    height: 100%;
+    width: 90%;
 }
 
 /* footer */
@@ -170,7 +172,7 @@ footer {
     list-style: none;
     text-decoration: none;
     width: 100%;
-    height: 190px;
+    height: 100%;
     bottom: 0px;
     background-color: #261128;
     color: #eddcf5;
@@ -178,14 +180,14 @@ footer {
     letter-spacing: 2px;
     vertical-align: middle;
     position: relative;
-    margin-bottom: 0;
+    padding-bottom: .25%;
+    padding-top: .25%;
 }
 
 .footer .disclaimer {
     text-align: left;
     padding-left: 30px;
     padding-right: 20px;
-    padding-top: 3px;
     padding-bottom: 0px;
     font-size: 13px;
 }
