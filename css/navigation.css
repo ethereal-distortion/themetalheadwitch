@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/xfb8zvz.css");
+@import url("https://use.typekit.net/xfb8zvz.css");
 
 body {
     background-color: #57445f;
@@ -13,9 +14,6 @@ body {
 }
 
 nav {
-    font-family: "blue-goblet", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     list-style: none;
     text-decoration: none;
     margin: 0;
@@ -31,6 +29,16 @@ nav {
 .navbar {
     width: 100%;
     background: #261128;
+}
+
+.navbar h1 {
+    font-family: "alana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 1%;
+    text-align: center;
+    margin: 0;
 }
 
 .navbar ul {
@@ -52,8 +60,11 @@ nav {
 }
 
 .navbar ul li a {
+    font-family: "los-feliz", serif;
+    font-weight: 400;
+    font-style: normal;
     display: inline-block;
-    color: #eddcf5;
+    color: white;
     width: 100%;
     text-align: center;
     padding: 20px 10px;
@@ -166,8 +177,8 @@ footer {
 }
 
 .footer {
-    font-family: "blue-goblet", sans-serif;
-    font-weight: 700;
+    font-family: "los-feliz", serif;
+    font-weight: 400;
     font-style: normal;
     list-style: none;
     text-decoration: none;
@@ -175,7 +186,7 @@ footer {
     height: 100%;
     bottom: 0px;
     background-color: #261128;
-    color: #eddcf5;
+    color: white;
     font-size: 10px;
     letter-spacing: 2px;
     vertical-align: middle;
@@ -187,9 +198,9 @@ footer {
 .footer .disclaimer {
     text-align: left;
     padding-left: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-bottom: 0px;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .footer .disclaimer h2 {
