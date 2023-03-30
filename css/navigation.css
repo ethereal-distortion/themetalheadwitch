@@ -167,17 +167,33 @@ nav {
 /* main homepage */
 
 .main_homepage {
-    height: 2000px;
-    width: 90%;
+    height: 1500px;
+    width: 100%;
 }
 
 .main_homepage .homepage_content {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
     color: white;
     font-family: "quatro", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.main_homepage .homepage_content h1 {
+    font-family: "rollerscript-smooth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.main_homepage .homepage_content h2 {
+    font-size: larger;
+    padding-bottom: 1%;
+}
+
+.main_homepage .homepage_content .main_section1 {
+    padding-bottom: 1%;
 }
 
 /* footer */
