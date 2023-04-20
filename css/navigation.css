@@ -45,6 +45,7 @@ nav {
 .navbar ul {
     padding: 0;
     margin-top: 0;
+    height: 100%;
 }
 
 .navbar > ul {
@@ -73,6 +74,11 @@ nav {
     font-size: 18px;
     transition: all 0.2s ease;
     list-style-type: none;
+}
+
+.navbar ul li .wrap a {
+    padding-top: 0;
+    height: 100%;
 }
 
 .navbar ul li > a {
