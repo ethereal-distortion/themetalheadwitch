@@ -109,10 +109,11 @@ nav {
 .navbar .submenu_b,
 .navbar .submenu_c,
 .navbar .submenu_d {
-    font-size: 20px;
     padding-left: 5;
     border-left: 0;
     list-style-type: none;
+    font-size: 18px;
+
 }
 
 .navbar .submenu {
