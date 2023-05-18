@@ -262,12 +262,12 @@ footer {
     padding-top: 3px;
 }
 
-.footer .socialmedia a {
+.footer .socialmedia h2 a {
     color: white; 
     text-decoration: none;
 }
 
-.footer .socialmedia a:visited {
+.footer .socialmedia h2 a:visited {
     color: white; 
     text-decoration: none;
 }
