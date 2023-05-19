@@ -1,0 +1,273 @@
+@import url("https://use.typekit.net/xfb8zvz.css");
+@import url("https://use.typekit.net/xfb8zvz.css");
+
+body {
+    background-color: #57445f;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/* top navigation*/
+
+#container {
+    position: relative;
+}
+
+nav {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background: #261128;
+}
+
+.navbar .home_button h1 a {
+       color: white; 
+       text-decoration: none;
+}
+
+.navbar .home_button h1 a:visited {
+    color: white; 
+    text-decoration: none;
+}
+
+.navbar h1 {
+    font-family: "rollerscript-smooth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 1%;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+.navbar ul {
+    padding: 0;
+    margin-top: 0;
+    height: 100%;
+}
+
+.navbar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    border-bottom: 0;
+}
+
+.navbar ul li {
+    position: relative;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    font-family: "quatro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    list-style-type: none;
+}
+
+.navbar ul li .wrap a {
+    padding-top: 0;
+    height: 100%;
+}
+
+.navbar ul li > a {
+    margin-right: 0px;
+}
+
+.navbar ul li:last-child > a {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover { 
+    text-decoration: underline;
+}
+
+.navbar ul li a:hover span,
+.navbar ul li a.active span,
+.navbar .submenu ul li a:hover span,
+.navbar .submenu ul li a.active span {
+    background-color: #261128;
+}
+
+.navbar .submenu_a,
+.navbar .submenu_b,
+.navbar .submenu_c,
+.navbar .submenu_d {
+    padding-left: 5;
+    border-left: 0;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.navbar .submenu {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    display: none;
+    
+}
+
+.navbar ul li a.a_parent.active + .submenu {
+    display: block;
+}
+
+.navbar .submenu ul li a {
+    width: 100%;
+    height: 100%;
+    background: #261128;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 15px;
+}
+
+.navbar .submenu::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent transparent #261128 transparent;
+}
+
+.submenu_side {
+    position: absolute;
+    top: 0;
+    left: 107%;
+    width: 100%;
+    display: none;
+}
+
+.navbar ul li a.submenu_b.active + .submenu_side {
+    display: block;
+}
+
+.navbar .submenu_side:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent #261128 transparent transparent;
+}
+
+/* main homepage */
+
+.main_homepage {
+    height: 100%;
+    width: 100%;
+}
+
+.main_homepage .homepage_content {
+    padding-left: 8%;
+    padding-right: 8%;
+    color: white;
+    font-family: "quatro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_homepage .homepage_content h1 {
+    font-family: "rollerscript-smooth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.main_homepage .homepage_content h2 {
+    font-size: larger;
+    padding-bottom: .5%;
+}
+
+.main_homepage .homepage_content .main_section1 {
+    padding-bottom: 1%;
+}
+
+.main_homepage .homepage_content .main_section2 {
+    padding-bottom: 1%;
+}
+
+.main_homepage .homepage_content .main_section3 {
+    padding-bottom: 1%;
+}
+
+/* footer */
+
+footer {
+    margin-top: 10%;
+}
+
+.footer {
+    font-family: "quatro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: #261128;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    position: relative;
+    padding-bottom: .25%;
+    padding-top: .25%;
+}
+
+.footer .disclaimer {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 10px;
+}
+
+.footer .disclaimer h2 {
+    margin-bottom: 0px;
+}
+
+.footer .socialmedia {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.footer .socialmedia h2 a {
+    color: white; 
+    text-decoration: none;
+}
+
+.footer .socialmedia h2 a:visited {
+    color: white; 
+    text-decoration: none;
+}
